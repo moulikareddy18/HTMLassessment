@@ -1,0 +1,176 @@
+body:not(div) {
+    background-color: #093a6fad;
+  }
+
+#header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+#center_header {
+    background-color: grey;
+    float: center;
+    width: 980px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+#left_header{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    float: left;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+#menu a{
+
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    float: right;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    
+}
+
+#menu a:hover{
+    background: #1E90FF;
+}
+
+#preview{
+    color: #EEEEEE;
+    height: 300px;
+}
+
+#center_preview{
+    height: 300px;
+    width: 980px;
+    margin: 0 auto;
+    
+
+}
+
+h2{
+    margin-left: 2rem;
+}
+
+#topic{
+    width: 300px;
+    float: left;
+    font-size: 13px;
+    margin: 40px 10px 10px 10px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    
+}
+
+#center_container {
+     width:980px;
+     height:400px;
+     overflow: auto;
+     margin:0 auto;
+     background: #DEDEDE;
+     overflow: hidden;
+}
+
+#sidebar ul li {
+     margin: 20px 0;
+     text-align: left;
+ 
+}
+
+#titlelist h2{
+    text-align: left;
+}
+#sidebar {
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    margin-top: 25px;
+    font-size: 90%;
+    text-transform: uppercase;
+    padding: 20px 20px 20px 100px;
+    background: #fcfcfc;
+    text-align: left;
+}
+
+#content{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-top: 25px;
+    background: #fcfcfc;
+
+}
+
+#left_list{
+    float: left;
+    width: 50%;
+    
+}
+
+#right_list {
+    float: right;
+    width: 50%
+
+
+}
+
+#footer {
+    background-color: black;
+    margin-left: 14.85rem;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 980px;
+    
+}
+
+#center_footer {
+    background-color: black;
+    font-size: 15px;
+    margin: 40px 10px 10px 10px;
+    color: white;   
+}
+
+.facebook{
+    padding: 0px;
+    width: 20x;
+    height: 60px;
+    margin: 10px;
+
+}
+
+.twitter{
+    padding: 0px;
+    width: 20x;
+    height: 60px;
+    margin: 10px;
+
+}
+
+.youtube{
+    padding: 0px;
+    width: 20x;
+    height: 60px;
+    margin: 10px;
+
+}
+
+#left_footer ul li{
+    display: inline;
+}
+
+.spanclass{
+   position: fixed;
+   bottom: 0;
+   right: 250;
+   color: #fff;
+   font-size: 14px;
+}
